@@ -82,7 +82,7 @@ class Motorcycle extends Vehicle {
 //Main Application
 public class VehicleApp {
     public static void main(String[] args) {
-        Car car = new Car("Myvi", "Perodua", 2024, 83.00, 5, 4);
+        Car car = new Car("Perodua", "Myvi", 2024, 83.00, 5, 4);
         Motorcycle motorcycle = new Motorcycle("Yamaha", "MT-07", 2021, 30.00, 689);
 
         int rentalDays = 3;
